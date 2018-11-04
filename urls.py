@@ -5,7 +5,7 @@ from django.shortcuts import HttpResponse
 # from wadibyte.shorturls.views import redirect_view
 # from wadibyte.accounts.views import registration_view
 # from wadibyte.accounts import urls as accounts_urls
-#ee
+
 from rest_framework import routers
 from . import rest_api
 

@@ -23,7 +23,6 @@ from .forms import OrgModelForm, NewsModelForm, ImageModelForm
 from .choices import KIND_CHOICES
 # from wadibyte.wadicore.models import Menu
 # Create your views here.
-#.
 
 class OrgCreateView(LoginRequiredMixin, PermissionRequiredMixin,
                     generic.CreateView):
