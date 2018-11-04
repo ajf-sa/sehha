@@ -15,7 +15,7 @@ from alfuhigi.models import ActiveAbstract, UUIdAbstract
 from .choices import KIND_CHOICES
 
 # Create your models here.
-
+#.
 
 class SehhaQuerySet(models.QuerySet, QuerySetMixin):
     pass
